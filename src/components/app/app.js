@@ -131,7 +131,6 @@ export default class App extends Component {
         this.setState({ inputValue })
     };
 
-
     render() {
         const { todoData, inputValue, filter } = this.state;
 
